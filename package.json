@@ -1,0 +1,41 @@
+{
+  "name": "simple-auth0-react",
+  "version": "0.0.2",
+  "description": "Get it working",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/therebelrobot/simple-auth0-react.git"
+  },
+  "keywords": [
+    "auth0",
+    "simple",
+    "react",
+    "provider",
+    "spa"
+  ],
+  "author": "Aster Haven <npm@therebelrobot.com> (@therebelrobot)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/simple-auth0-react/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/simple-auth0-react#readme",
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4"
+  }
+}
